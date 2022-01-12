@@ -1,0 +1,58 @@
+
+.container {
+    width: 600px;
+    
+}
+
+.head {
+    color: white ;
+    width: 100%;
+    padding-left: 100%;
+}
+
+.title {
+    
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 10px black;
+}
+
+
+
+
+.btn {
+    padding: 20px 50px ;
+    background-color: rgb(220, 220, 220);
+    border-radius: 5px;
+    border: 1px solid grey;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 5px;
+    transition-duration:  0.2s;
+    background-color: rgb(190,190,190);
+}
+
+.button {
+    padding-left: 110%;
+    width: 100%;
+}
+
+body {
+    background-image: url('table.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top right;
+    overflow-x: auto;
+}
+
+#output {
+    color: rgb(0,200,100);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 1000px;
+    padding-left : 60%;
+    text-shadow: 2px 2px 3px black;
+}
